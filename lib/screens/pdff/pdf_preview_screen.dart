@@ -48,6 +48,7 @@ class _PdfPreviewPageState extends State<PdfPreviewPage> {
         children: <Widget>[
           FloatingActionButton(
             onPressed: () => downloadPdf(),
+            // ignore: sort_child_properties_last
             child: const Icon(Icons.download),
             heroTag: null, // Add this line
           ),
